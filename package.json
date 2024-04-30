@@ -1,0 +1,42 @@
+{
+  "name": "bloodhound-js",
+  "version": "1.3.0",
+  "description": "bloodhound.js for node and browser.",
+  "main": "index.js",
+  "scripts": {
+    "build": "NODE_OPTIONS=--openssl-legacy-provider webpack -p",
+    "start": "webpack-dev-server -c --port=7788",
+    "test": "tape tests/*.js"
+  },
+  "contributors": [
+    "Bobby Chao"
+  ],
+  "author": "Wang Zuo",
+  "license": "MIT",
+  "dependencies": {
+    "es6-promise": "^3.0.2",
+    "object-assign": "^4.0.1",
+    "storage2": "^0.1.0",
+    "superagent": "9.0.0"
+  },
+  "devDependencies": {
+    "tape": "^4.2.2",
+    "webpack": "^4.16.2",
+    "webpack-cli": "^3.1.0",
+    "webpack-dev-server": "^3.2.1"
+  },
+  "keywords": [
+    "bloodhound",
+    "index",
+    "node",
+    "search"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bobbylkchao/bloodhound.git"
+  },
+  "bugs": {
+    "url": "https://github.com/bobbylkchao/bloodhound/issues"
+  },
+  "homepage": "https://github.com/bobbylkchao/bloodhound/blob/master/README.md"
+}
